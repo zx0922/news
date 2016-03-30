@@ -14,6 +14,7 @@
 		A1F999D41CAC09D3002AC371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F999D21CAC09D3002AC371 /* LaunchScreen.storyboard */; };
 		A1F999DF1CAC0AEE002AC371 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F999DE1CAC0AEE002AC371 /* News.storyboard */; };
 		A1F999E21CAC0B15002AC371 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F999E11CAC0B15002AC371 /* NewsTableViewController.m */; };
+		A1F999E51CAC1919002AC371 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F999E41CAC1919002AC371 /* NetworkTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		A1F999DE1CAC0AEE002AC371 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		A1F999E01CAC0B15002AC371 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		A1F999E11CAC0B15002AC371 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		A1F999E31CAC1919002AC371 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		A1F999E41CAC1919002AC371 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 		A1F999DD1CAC0AD9002AC371 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A1F999E31CAC1919002AC371 /* NetworkTools.h */,
+				A1F999E41CAC1919002AC371 /* NetworkTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F999E51CAC1919002AC371 /* NetworkTools.m in Sources */,
 				A1F999E21CAC0B15002AC371 /* NewsTableViewController.m in Sources */,
 				A1F999C91CAC09D3002AC371 /* AppDelegate.m in Sources */,
 				A1F999C61CAC09D3002AC371 /* main.m in Sources */,
